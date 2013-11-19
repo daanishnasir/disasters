@@ -1,0 +1,35 @@
+path.county {
+	fill:white;
+	opacity:0.30;
+	stroke:black;
+}
+
+
+.Flood{fill:blue !important;}
+.Coastal_Storm{fill:blue !important;}
+.Dam_Levee_Break{fill:blue !important;}
+
+.Earthquake{fill:sienna!important;}
+
+
+.Fire{fill:red!important;}
+.Volcano{fill:tomato !important;}
+.Drought{fill:sandybrown!important;}
+.Mud_Landslide{fill:sandybrown !important;}
+.Fishing_Losses{fill:bluegreen!important;}
+
+.Hurricane{fill:darkblue !important;}
+.Tsunami{fill:darkblue !important;}
+.Typhoon{fill:darkblue !important;}
+
+.Tornado{fill:black !important;}
+.Severe_Storms{fill:black !important;}
+
+.Severe_Ice_Storm{fill:aqua !important;}
+.Snow{fill:aqua !important;}
+.Freezing{fill:aqua !important;}
+
+.Human_Cause{fill:purple !important;}
+.Toxic_Substances{fill:purple !important;}
+.Terrorist{fill:blueviolet !important;}
+.Other{fill:purple !important;}
