@@ -1,3 +1,4 @@
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License:none (public domain)
@@ -454,7 +455,7 @@ strong { font-weight:bold; }
 
 * {
   /* prevent callout when holding tap on links (the native dialog that comes up) */
-  -webkit-touch-callout:none;
+/*  -webkit-touch-callout:none;*/
 
   /* make transparent link selection, adjust last value opacity 0 to 1.0 */
   -webkit-tap-highlight-color: rgba(0,0,0,0);
