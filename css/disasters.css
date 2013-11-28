@@ -1,35 +1,58 @@
+.year{
+    font: 200 50px "Helvetica Neue";
+    
+    fill: #ddd;    
+}
+
 path.county {
 	fill:white;
 	opacity:0.30;
-	stroke:black;
+    stroke:black;
 }
 
 
-.Flood{fill:blue !important;}
-.Coastal_Storm{fill:blue !important;}
-.Dam_Levee_Break{fill:blue !important;}
+path.Flood, .ST01{fill:blue;}
+path.Coastal_Storm{fill:blue;}
+path.Dam_Levee_Break{fill:blue;}
 
-.Earthquake{fill:sienna!important;}
+path.Earthquake{fill:sienna;}
 
 
-.Fire{fill:red!important;}
-.Volcano{fill:tomato !important;}
-.Drought{fill:sandybrown!important;}
-.Mud_Landslide{fill:sandybrown !important;}
-.Fishing_Losses{fill:bluegreen!important;}
+path.Fire{fill:red;}
+path.Volcano{fill:tomato;}
+path.Drought{fill:sandybrown;}
+path.Mud_Landslide{fill:sandybrown;}
+path.Fishing_Losses{fill:bluegreen;}
 
-.Hurricane{fill:darkblue !important;}
-.Tsunami{fill:darkblue !important;}
-.Typhoon{fill:darkblue !important;}
+path.Hurricane{fill:darkblue;}
+path.Tsunami{fill:darkblue;}
+path.Typhoon{fill:darkblue;}
 
-.Tornado{fill:black !important;}
-.Severe_Storms{fill:black !important;}
+path.Tornado{fill:black;}
+path.Severe_Storms{fill:black;}
 
-.Severe_Ice_Storm{fill:aqua !important;}
-.Snow{fill:aqua !important;}
-.Freezing{fill:aqua !important;}
+path.Severe_Ice_Storm{fill:aqua;}
+path.Snow{fill:aqua;}
+path.Freezing{fill:aqua;}
 
-.Human_Cause{fill:purple !important;}
-.Toxic_Substances{fill:purple !important;}
-.Terrorist{fill:blueviolet !important;}
-.Other{fill:purple !important;}
+path.Human_Cause{fill:purple;}
+path.Toxic_Substances{fill:purple;}
+path.Terrorist{fill:blueviolet;}
+path.Other{fill:purple;}
+
+
+.link {
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+.node {
+  cursor: move;
+  fill: blue;
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+.node.fixed {
+  fill: #f00;
+}
