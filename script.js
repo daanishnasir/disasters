@@ -136,24 +136,18 @@ jQuery(document).ready(function () {
              intervalID;
          
          function displayDisaster(){
-
-
-                   
             // d3.select(fips).attr('class','county '+this_dec.TYPE)
              if (affected_counties.length>0){
                  
                 legend.addKey(affected_counties[0].DATE)
                 legend.addKey(affected_counties[0].DESC)
-
-
-
                  // d3.select(county_paths).clased(d.TYPE);
              }
-             
              affected_counties=[];
              county_paths=[];
-
          };
+         
+         
          
          function newDeclaration(){
              this.index = this.index || 0;
@@ -164,11 +158,6 @@ jQuery(document).ready(function () {
                  
                  if (this_declaration.CO_FIPS){
                                           
-                     // d3.selectAll('path')
-                     // .classed(this_declaration.TYPE,function(d,k){
-                     //    return d.properties.FIPS===fips;                            
-                     // });
-                     
                      current_description = current_description || this_declaration.DESC;
                  
                      if(this_declaration.DESC!=current_description){
@@ -179,13 +168,7 @@ jQuery(document).ready(function () {
                      affected_counties.push(this_declaration)
                      
                      d3.select('#F'+this_declaration.FIPS).attr('class','county '+this_declaration.TYPE)
-                     
-                     
-                     // d3.selectAll('path').attr('class',function(d,key){
-                     //     d=d;
-                     //     
-                     // });
-                     
+                                          
                  }
                  
                  this.index+=1                                
@@ -197,7 +180,7 @@ jQuery(document).ready(function () {
                   
          intervalID=window.setInterval(newDeclaration, 10);
  
-     };
+     };//end play
       
      // Load declarations
      // ST_FIPS,CO_FIPS,DATE,TYPE,DESC

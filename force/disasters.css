@@ -1,3 +1,8 @@
+#tooltip{
+    background: white;
+    opacity:.9;
+    
+}
 circle{stroke:black;}
 
 circle.Flood{fill:blue;}
