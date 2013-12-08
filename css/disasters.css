@@ -5,11 +5,11 @@
 }
 
 path.county {
-	fill:white;
-	opacity:0.30;
+    fill:white;
+    fill-opacity:0;
     stroke:black;
+    stroke-opacity:.5
 }
-
 
 path.Flood, .ST01{fill:blue;}
 path.Coastal_Storm{fill:blue;}
@@ -55,4 +55,21 @@ path.Other{fill:purple;}
 
 .node.fixed {
   fill: #f00;
+}
+.axis text {
+  font: 12px sans-serif;
+  fill:black;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+
+.date_viewer {
+    fill-opacity:0;
+    fill:green;
+    stroke:black;
+    stroke-width:5
 }
